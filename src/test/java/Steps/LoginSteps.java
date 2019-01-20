@@ -11,6 +11,7 @@ public class LoginSteps {
 	@Given("^Open the LoginPage$")
 	public void open_the_LoginPage() throws Throwable {
 	    System.out.println("Opening the Login Page..");
+	    System.out.println("doing some updation for git demo");
 	}
 
 	@When("^Enter the \"([^\"]*)\" UserId$")
